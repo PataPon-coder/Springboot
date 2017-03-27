@@ -53,4 +53,9 @@ public class MT {
     public int zeroException() {
         return 100 / 0;
     }
+
+    @RequestMapping("okman")
+    public void Ok() {
+
+    }
 }
