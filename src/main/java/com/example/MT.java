@@ -1,7 +1,6 @@
 package com.example;
 
 import com.example.fastjson.Person;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,7 +23,6 @@ public class MT {
     private String hiNew() {
         String arr[] = new String[]{};
         System.out.println(arr.length);
-        arr[1] = "";
         return "hiNew";
     }
 
