@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="utf-8"/>
     <title>Insert the title here</title>
@@ -9,7 +9,12 @@
         <br/>
             this is my first  thymeleaf demo.
         </h1>
+        <hr/>
+        Welcome <p th:text="${name}"/>
+        <div
+                th:text="${request}">[...]</div>
 
+        <p th:text="${#httpServletRequest}">Test</p>
 </body>
 
 </html>

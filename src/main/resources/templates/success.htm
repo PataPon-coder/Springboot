@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8"/>
+    <title>Insert the title here</title>
+</head>
+<body>
+<hr/>
+Welcome <p th:text="${session.test1}"/>
+Welcome <p th:text="${session.string1}"/>
+Welcome <p th:text="${session.integer1}"/>
+Welcome <p th:text="${user}"/>
+Welcome <p th:text="${user.id}"/>
+Welcome <p th:text="${user.userName}"/>
+
+
+<form action="/testpojo" method="post">
+    id:<input type="text" name="id"/>
+    <br/>
+    userName:<input type="text" name="userName"/>
+    <br/>
+    city:<input type="text" name="address.city"/>
+    <br/>
+    province:<input type="text" name="address.province"/>
+    <input type="submit" value="Submit"/>
+</form>
+</body>
+
+</html>

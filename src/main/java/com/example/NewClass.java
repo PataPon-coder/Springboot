@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class NewClass {
 
     @RequestMapping("/newClass")
-    private String newMethod() {
+    public String newMethod() {
         return "this is a new method";
     }
 }

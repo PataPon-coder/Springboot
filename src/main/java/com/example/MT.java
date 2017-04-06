@@ -2,6 +2,7 @@ package com.example;
 
 import com.example.fastjson.Person;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +20,7 @@ public class MT {
         return "hello lvjian";
     }
 
-    @RequestMapping("/hiNew")
+    @RequestMapping(value = "/hiNew",method = RequestMethod.POST)
     private String hiNew() {
         String arr[] = new String[]{};
         System.out.println(arr.length);
