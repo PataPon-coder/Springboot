@@ -9,6 +9,10 @@ public class JdbcTemplateTest {
 
     public String selectByCatName() {
 //            jdbcTemplate.batchUpdate()
+        System.out.println();
+        System.out.println();
+        System.out.println();
+        System.out.println();
         return "";
     }
 }

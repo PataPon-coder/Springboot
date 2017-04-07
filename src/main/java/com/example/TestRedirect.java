@@ -61,6 +61,9 @@ public class TestRedirect {
 
     @RequestMapping("/testpojo")
     private String testPojo(User user) {
+
+        System.out.println("1111");
+        System.out.println("1111");
         //http://localhost:8080/testpojo?id=100&userName=lvjian&address.city=fuyang&address.province=anhui
         System.out.println(user);
         return "success";
