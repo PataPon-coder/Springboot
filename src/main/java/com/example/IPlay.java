@@ -7,4 +7,5 @@ public interface IPlay {
 
     public static  void stop() {
     }
+
 }
