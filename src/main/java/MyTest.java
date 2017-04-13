@@ -5,4 +5,6 @@ public class MyTest {
 
 
     private String a="";
+
+    private  String asdfasdf;
 }
